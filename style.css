@@ -145,8 +145,7 @@ audio {
 }
 
 #btntext {
-  margin-top: 1rem;
-  position: absolute;
+  position: fixed;
   bottom: 4px;
   right: 10px;
 
