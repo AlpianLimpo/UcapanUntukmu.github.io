@@ -1,0 +1,179 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+audio {
+  width: 270px;
+  height: 28px;
+  position: fixed;
+  bottom: 3px;
+  left: 3px;
+}
+.isi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 232, 232);
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 1px 1px rgb(148, 148, 148);
+}
+.isi .dijawab {
+  font-size: 16px;
+}
+.akuitu {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 17px;
+}
+.pilihan {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.8rem;
+}
+
+.isi input {
+  margin-top: 1rem;
+  height: 22px;
+  box-shadow: none;
+}
+#textisi {
+  width: 175px;
+  height: 25px;
+}
+
+.silang {
+  font-size: 2.9rem;
+  font-weight: 800;
+  margin-left: 15rem;
+  cursor: pointer;
+}
+
+#kawai a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#imut a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#cantik a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#baik a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#lucu a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#ngangenin a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#jwbnbenar a {
+  margin: 2rem;
+  margin-top: 4rem;
+  display: grid;
+  margin-top: rem;
+  text-align: center;
+  row-gap: 11px;
+}
+#salah a {
+  margin: 2rem;
+  margin-top: 4rem;
+}
+#text1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0rem 1rem 1rem 1rem;
+}
+#text2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0rem 1rem 1rem 1rem;
+}
+#kliklanjutin {
+  position: relative;
+  display: block;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+.bungkusul {
+  overflow: hidden;
+  width: 370px;
+  height: 100px;
+}
+#ucapanultah {
+  text-align: center;
+  font-size: 21px;
+  animation: textani 2s alternate infinite;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes textani {
+  0% {
+    font-size: 21px;
+  }
+  /* 50% {
+    font-size: 23px;
+  } */
+  100% {
+    font-size: 22px;
+  }
+}
+.textutama img {
+  width: 250px;
+  height: 220px;
+
+  margin-left: 1rem;
+}
+
+#btntext {
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+
+  font-size: 15px;
+}
+#imgtext1 {
+  width: 30;
+  height: 30px;
+}
+
+#gambar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+#gambarimg {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
